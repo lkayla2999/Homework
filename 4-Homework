@@ -1,0 +1,83 @@
+# Homework 4 Mardown
+
+<!--OL--># Homework 4 
+
+<!--OL-->
+
+1. What does one need to do to use a module?
+
+<font color= green>
+One must group related code into a file with the extention ".py" to use a module. </font>
+
+2. Name a Module (not the DateTime Nodule) we looked at and write a line or 2 of code 
+
+<font color= green>
+Random Module
+import random
+prob = random.random()
+print("Probability ...", prob)
+ </font>
+
+
+3. as an example using this module.
+<font color= green>
+Probability ... 0.03217154321123428 </font>
+
+1. What is a benefit of using Exception handling? 
+<font color= green>
+The benefits of using Exception handling is that it normally stop and generate an error message when something goes wrong.</font> 
+    
+
+1. What are the 4 components used for Python Exception Handling?
+<font color= green>
+The 4 components for Python exception handling is as follow:</font>  
+ * try block lets you test a block of code for errors. 
+    *  block lets you handle the error.
+    * The else block lets you execute code when there is no error.
+    * The finally block lets you execute code, regardless of the result of the try- and except blocks.
+
+
+5. NumPy arrays are like what Python data types?
+    * integer
+    * string
+    * range
+    * float
+
+
+1. What is one of the main benefits of using NumPy arrays.
+<font color= green>
+It contains a multidimensional array and matrix data structure (in the form of rows and columns) </font>
+
+
+1. What is one of the main requirements about the 'dtype' of NumPy arrays?
+<font color= green>
+specify which data type you want </font>
+
+1. Of the 10 uses of NumPy, name 
+    * Broadcasting
+    * Mathematical Operations
+
+
+1. Name one of the other libraries we'll use with NumPy?
+    * Pandas
+
+
+1. What is the shape of NumPy arrays?
+<font color= green>
+As the number of elements in each dimension are the same, use numpy.reshape() </font>
+
+1. What is a Tensor?
+<font color= green>
+mathematical objects that can be used to describe physical properties </font>
+
+
+1. Name a reason why it's better using NumPy for Data Analysis than using a Python List?
+    * Less Memory - NumPy arrays occupy less memory as compared to list
+    * Fast - NumPy arrays are fast compared to lists
+    * Convenient - it is convenient to work with NumPy
+
+
+1. When creating an "empty" array, where do the elements come from?
+<font color= green>
+ The reason to use empty() over zeros() (or something similar) is speed - just make sure to fill every element afterwards!</font>
+
